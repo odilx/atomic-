@@ -1,0 +1,56 @@
+.back {
+    position: relative !important;
+    height: 450px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height:100%;
+    object-fit: cover;/*bu background-size ga oxshagan property, bu rasmni moslashtitrib beradi*/
+}
+
+.overlay {
+    position: absolute;
+    bottom:75%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: .5s ease;
+    z-index: 1;
+}
+.hover{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: .5s ease;
+}
+.back:hover .overlay{
+    height: 20%;
+    opacity: 1;
+}
+.back:hover .hover{
+    opacity: 1;
+}
+
+
+.overlay-text {
+    color: white;
+    padding: 10px;
+    font-weight: 300;
+}
+.overlay-text h5{
+    font-weight: 400;
+}
+.overlay-text p{
+    opacity: 0.5;
+}

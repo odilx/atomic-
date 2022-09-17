@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.home{
+    background: url('imgs/xslider-1.jpg.pagespeed.ic.abj2HoBrGU.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 100px;
+}
+.menu ul li a{
+    font-size: 14px;
+}
+.about_card{
+    position: relative;
+    top: -100px;
+    border-radius: 8px;
+    background: #fff;
+}
+.services{
+    background: #F8F9FA;
+}
+.services .card {
+    background: transparent;
+}
+*::selection{
+    background: #000;
+    color: #fff;
+}
+.fs-12{
+    font-size: 12px!important;
+}
+.fs-13{
+    font-size:13px !important;
+}
+.fs-14{
+    font-size:13px !important;
+}
+.fs-15{
+    font-size:15px !important;
+}
+.pt-100{
+    padding-top: 100px !important;
+}
+.count_number{
+    background: #0389ff;
+}
